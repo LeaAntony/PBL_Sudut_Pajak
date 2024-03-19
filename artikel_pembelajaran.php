@@ -27,6 +27,7 @@
                         <div class="categories">
                             <ul>
                                 <li><a href="index.php"><i class="fa fa-house"></i>Beranda</a></li>
+                                <li><a href="pembelajaran.php"><i class="fa fa-house"></i>Pembelajaran PPh</a></li>
                                 <li>Artikel Pembelajaran PPh</li>
                             </ul>
                         </div>
@@ -39,12 +40,21 @@
     <!-- Privacy Policy Start -->
     <div class="neuron-about gray-bg pt-90 pb-100 md-pt-70 md-pb-80">
         <div class="container">
+            <div class="col-lg-12 col-md-12 mb-40 container-fluid">
+                <form class="d-flex about-btn" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn readon radius" type="submit">Search</button>
+                </form>
+            </div>
             <div class="row col-20 d-flex justify-content-center">
                 <div class="col-lg-6 col-md-6 mb-40">
                     <div class="card2">
-                        <img class="thumb" src="https://indonesiafashionweek.id/wp-content/uploads/2020/11/123553863_3453752961370211_3707274402065282295_n.jpg" alt="" style="max-height: 20rem;">
+                        <img class="thumb"
+                            src="https://indonesiafashionweek.id/wp-content/uploads/2020/11/123553863_3453752961370211_3707274402065282295_n.jpg"
+                            alt="" style="max-height: 20rem;">
                         <article>
-                            <h1 style="text-align: left;">Pengaruh Pajak Penghasilan (PPh) terhadap Cash Flow UMKM dalam Industri Fashion</h1><br>
+                            <h1 style="text-align: left;">Pengaruh Pajak Penghasilan (PPh) terhadap Cash Flow UMKM dalam
+                                Industri Fashion</h1><br>
                             <?php
                                 $artikel1 = "Pajak Penghasilan (PPh) merupakan kewajiban yang tak terhindarkan bagi Usaha Mikro, Kecil, dan Menengah (UMKM) di industri fashion. Bagaimana PPh memengaruhi aliran kas (cash flow) merupakan perhatian serius bagi para pelaku usaha ini. Dalam industri fashion yang dinamis, setiap penerimaan dan pengeluaran memiliki dampak signifikan terhadap kelangsungan bisnis. PPh menjadi salah satu faktor yang dapat mengganggu keseimbangan aliran kas, terutama jika tidak dikelola dengan bijak.";
                             ?>
@@ -64,7 +74,7 @@
                                 $artikel2 = "Pajak Penghasilan (PPh) merupakan bagian tak terpisahkan dari operasional toko retail. Dalam menjalankan bisnisnya, pemilik toko harus memahami dengan baik aturan PPh yang berlaku. Ini melibatkan pengetahuan tentang tarif pajak yang diterapkan, jenis-jenis penghasilan yang dikenai pajak, serta kewajiban terkait pelaporan dan pembayaran pajak secara berkala. Manajemen keuangan yang efisien menjadi kunci utama dalam mengelola PPh bagi toko
                                 retail.";
                             ?>
-                            <p style="text-align: justify;"><?= substr($artikel2, 0, 180) ?> <a href="detail_berita.php">baca selengkapnya</a></p>
+                            <p style="text-align: justify;"><?= substr($artikel2, 0, 180) ?> <a href="">baca selengkapnya</a></p>
                             <ul class="blog-meta">
                                 <li style="margin-right: 50px; color: #01a0f9; width:250px"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 01 Februari 2024 <i class="fa fa-user-o" aria-hidden="true"></i> Admin</li>
                             </ul>
@@ -85,7 +95,7 @@
                                 
                                 Untuk peraturan selengkapnya mengenai batas waktu tanggal pembayaran dapat dilihat pada Peraturan Menteri Keuangan (PMK) Nomor 80/PMK.03/2010, sebagaimana statusnya telah dicabut dan diganti dengan peraturan terbaru PMK No. 242/PMK.03/2014.";
                             ?>
-                            <p style="text-align: justify;"><?= substr($artikel3, 0, 180) ?> <a href="detail_berita.php">baca selengkapnya</a></p>
+                            <p style="text-align: justify;"><?= substr($artikel3, 0, 180) ?> <a href="">baca selengkapnya</a></p>
                             <ul class="blog-meta">
                                 <li style="margin-right: 50px; color: #01a0f9; width:250px"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 18 januari 2024 <i class="fa fa-user-o" aria-hidden="true"></i> Admin</li>
                             </ul>
@@ -102,7 +112,7 @@
 
                                 Peranan pajak dalam Anggaran Pendapatan dan Belanja Negara, sangat besar per tahunnya, hingga mencapai setengah bagian yang didapatkan negara dari keseluruhan, karena masyarakat Indonesia sangat berperan besar terhadap sistem perpajakan yang ada di Indonesia. Sebagai seorang Wajib Pajak dalam negeri maupun Wajib Pajak dalam negeri yang mempunyai penghasilan diluar negeri yang baik, akan melakukan penyetoran pajak tepat pada waktu dan sesuai peraturan yang sudah ditetapkan. Didalam hal ini tidak hanya saja dalam melakukan pemenuhan pembayaran pajak sesuai dengan ketentuan yang ada, yang sudah ditetapkan oleh Direktorat Jenderal Pajak.";
                             ?>
-                            <p style="text-align: justify;"><?= substr($artikel4, 0, 180) ?> <a href="detail_berita.php">baca selengkapnya</a></p>
+                            <p style="text-align: justify;"><?= substr($artikel4, 0, 180) ?> <a href="">baca selengkapnya</a></p>
                             <ul class="blog-meta">
                                 <li style="margin-right: 50px; color: #01a0f9; width:250px"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> 20 Juli 2023 <i class="fa fa-user-o" aria-hidden="true"></i> Admin</li>
                             </ul>

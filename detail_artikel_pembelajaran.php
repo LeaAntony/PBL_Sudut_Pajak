@@ -27,6 +27,8 @@
                         <div class="categories">
                             <ul>
                                 <li><a href="index.php"><i class="fa fa-house"></i>Beranda</a></li>
+                                <li><a href="pembelajaran.php"><i class="fa fa-house"></i>Pembelajaran PPh</a></li>
+                                <li><a href="artikel_pembelajaran.php"><i class="fa fa-house"></i>Artikel Pembelajaran PPh</a></li>
                                 <li>Detail Artikel Pembelajaran PPh</li>
                             </ul>
                         </div>
