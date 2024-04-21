@@ -165,8 +165,9 @@
             </div>
         </div>
     </div>
-
+    <!-- Konten Daftar Kuis Berakhir -->
     <?php include './layout/footer.php'; ?>
+
 </body>
 
 </html>
