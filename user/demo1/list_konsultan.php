@@ -17,7 +17,7 @@ if (isset($_POST['type'])) {
 
 <!DOCTYPE html>
 <html lang="en">
-<title>List Pelatihan | Sudut Pajak </title>
+<title>List Konsultan | Sudut Pajak </title>
 <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon.png">
 
 <body>
@@ -28,7 +28,7 @@ if (isset($_POST['type'])) {
 		<div class="container">
 			<div class="page-inner">
 				<div class="page-header">
-					<h4 class="page-title">List Materi Pelatihan</h4>
+					<h4 class="page-title">List Konsultan</h4>
 					<ul class="breadcrumbs">
 						<li class="nav-home">
 							<a href="index.php">

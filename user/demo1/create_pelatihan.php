@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html lang="en">
-<title>Tambah Peraturan | Sudut Pajak </title>
+<title>Tambah Pelatihan | Sudut Pajak </title>
 <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon.png">
 
 <body>

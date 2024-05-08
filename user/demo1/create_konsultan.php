@@ -61,7 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html lang="en">
-<title>Tambah Peraturan | Sudut Pajak </title>
+<title>Tambah Konsultan | Sudut Pajak </title>
 <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon.png">
 
 <body>
@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="container">
             <div class="page-inner">
                 <div class="page-header">
-                    <h4 class="page-title">Form Input Materi Pelatihan</h4>
+                    <h4 class="page-title">Form Input Konsultan</h4>
                     <ul class="breadcrumbs">
                         <li class="nav-home">
                         </li>
