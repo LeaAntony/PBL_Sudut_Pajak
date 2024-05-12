@@ -312,7 +312,7 @@ function site_url()
 							<h4 class="text-section">Kuis</h4>
 						</li>
 						<li class="nav-item">
-							<a href="./admin_kuis.php">
+							<a href="./list_kuis.php">
 								<i class="fas fa-clipboard-list"></i>
 								<p>Daftar Kuis</p>
 							</a>
