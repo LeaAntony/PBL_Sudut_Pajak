@@ -2,118 +2,82 @@
 <html lang="en">
 
 <head>
-	<title>Edit Kuis | Sudut Pajak</title>
-	<link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon.png">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-	<style>
-		.container {
-			overflow-y: auto;
-		}
+    <title>Edit Kuis | Sudut Pajak</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .block {
+            display: block;
+            height: 50px;
+            width: 8px;
+            margin-right: 5px;
+            background: linear-gradient(41deg, #09c778, #01a0f9);
+        }
 
-		.div-1 {
-			display: flex;
-			align-items: center;
-			margin-top: 60px;
-			margin-bottom: 45px;
-			margin-right: 10px;
-		}
+        .btn {
+            background: linear-gradient(41deg, #09c778, #01a0f9);
+        }
 
-		.btn-container {
-			position: absolute;
-			top: 180px;
-			right: 70px;
-			display: flex;
-			align-items: center;
-			padding: 5px 10px;
-			border-radius: 5px;
-			margin-right: 5px;
-			color: white;
-			background: linear-gradient(41deg, #09c778, #01a0f9);
-		}
-
-		.edit {
-			color: white;
-		}
-
-		.fa-edit {
-			color: white;
-			border: none;
-			margin-right: 5px;
-		}
-
-		.block {
-			display: block;
-			height: 50px;
-			width: 8px;
-			margin-right: 5px;
-			background: linear-gradient(41deg, #09c778, #01a0f9);
-		}
-
-		.btn {
-			background: linear-gradient(41deg, #09c778, #01a0f9);
-		}
-
-		.btn-kirim {
-			margin-top: 100px;
-			margin-left: 140px;
-			color: white;
-			border: none;
-			width: 130px;
-			font-size: 50px;
-			background: linear-gradient(41deg, #09c778, #01a0f9);
-		}
-
-		.font {
-			font-size: 18px;
-		}
-	</style>
+        .fa-edit {
+            margin-right: 5px;
+            color: white;
+        }
+    </style>
 
 </head>
 
 <body>
-	<?php include './layout/sidebar.php'; ?>
-	<!-- Konten Edit Kuis Dimulai -->
-	<div class="container">
-		<div class=" mt-2 ml-4 p-5">
-			<div class="row align-items-center">
-				<div class="col-md-6">
-					<div class="div-1">
-						<div class="block"></div>
-						<h2><strong>Edit Kuis</strong></h2>
-					</div>
-				</div>
-			</div>
-			<div class="btn-container">
-				<div class="d-flex justify-content-end">
-					<a href="list_soal.php"><i class="fa fa-edit"></i><span class="edit">Edit Soal</span></a>
-				</div>
-			</div>
-			<form action="#" method="POST" enctype="multipart/form-data">
-				<div class="form-group">
-					<label class="form-label">Judul kuis</label>
-					<input type="text" class="form-control" placeholder="Masukkan judul kuis" name="judul_kuis"
-						required>
-				</div><br>
-				<div class="form-group">
-					<label class="form-label">Waktu Pengerjaan</label>
-					<input type="number" class="form-control" name="waktu_pengerjaan" required>
-					<p class="keterangan">(menit)*</p>
-				</div>
-				<div class="form-group">
-					<label class="form-label">Bobot Soal</label>
-					<input type="number" class="form-control" placeholder="Masukkan bobot soal" name="bobot_soal"
-						required>
-				</div>
-			</form>
-			<div class="d-flex justify-content-center">
-				<button type="submit" class="btn btn-kirim"><span class="font">Kirim</span></button>
-			</div>
-		</div>
-	</div>
-	<!-- Konten Edit Kuis Berakhir -->
-	<?php include './layout/footer.php'; ?>
+    <?php include './layout/sidebar.php'; ?>
 
+    <div class="main-panel">
+        <div class="container">
+            <div class="page-inner">
+                <div class="page-header">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="block"></div>
+                        <h4 class="page-title fw-bold">Edit Kuis</h4>
+                    </div>
+                </div>
+                <div class="card shadow mb-4">
+                    <div class="card-body">
+                        <div class="btn-container">
+                            <div class="d-flex justify-content-end mb-3">
+                                <a href="list_soal.php" class="btn">
+                                    <i class="fas fa-edit"></i>
+                                    <span class="tambah text-white" required>Edit Soal</span>
+                                </a>
+                            </div>
+                        </div>
+                        <form action="" method="POST" enctype="multipart/form-data">
+                            <div class="mb-3">
+                                <label for="pertanyaan" class="form-label fw-bold">Judul</label>
+                                <input type="text" class="form-control border-info-subtle" id="judul" rows="3"
+                                    placeholder="Judul Kuis"></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="pertanyaan" class="form-label fw-bold">Waktu</label>
+                                <input type="text" class="form-control border-info-subtle" id="judul" rows="3"
+                                    placeholder="Waktu Pengerjaan"></input>
+                            </div>
+                            <div class="mb-3">
+                                <label for="pertanyaan" class="form-label fw-bold">Jumlah Soal</label>
+                                <input type="text" class="form-control border-info-subtle" id="judul" rows="3"
+                                    placeholder="Jumlah Soal Kuis"></input>
+                            </div>
+                            <div class="mt-5">
+								<a href="" class="btn">
+									<span class="tambah text-white" required>Tambah</span>
+								</a>
+							</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <?php include './layout/footer.php'; ?>
+    </div>
 </body>
 
 </html>
