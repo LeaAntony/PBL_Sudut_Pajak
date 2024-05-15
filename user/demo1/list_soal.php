@@ -87,15 +87,17 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-4">
-                                <h3 style="font-weight: bold;">Judul Kuis : </h3> 
-                                <p>Kuis PPh 21: Tes Pemahaman tentang Pajak Gaji</p>
-                            </div>
-                            <div class="col-2">
-                                <h3 style="font-weight: bold;">Waktu Kuis : </h3> 
-                                <p>20 menit</p>
-                            </div>
+                        <div>
+                            <table>
+                                <tr>
+                                    <td><p class="fw-bold fs-3">Judul Kuis : </p> </td>
+                                    <td><p>Kuis PPh 21: Tes Pemahaman tentang Pajak Gaji</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p class="fw-bold fs-3">Waktu Kuis : </p></td>
+                                    <td><p>20 Menit</p></td>
+                                </tr>
+                            </table>
                         </div>
                         <div class="row">
                             <div class="col-md-12 mt-1">
