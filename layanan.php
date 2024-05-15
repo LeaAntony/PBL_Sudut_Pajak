@@ -34,11 +34,11 @@
             <div class="breadcrumbs-inner">
                 <div class="container">
                     <div class="breadcrumbs-text">
-                        <h1 class="breadcrumbs-title mb-17">Kategori Perbidang Usaha</h1>
+                        <h1 class="breadcrumbs-title mb-17">Layanan</h1>
                         <div class="categories">
                             <ul>
                                 <li><a href="index.php"><i class="fa fa-house"></i>Beranda</a></li>
-                                <li>Kategori Perbidang Usaha</li>
+                                <li>Layanan</li>
                             </ul>
                         </div>
                     </div>
@@ -61,7 +61,9 @@
                                 <h2 class="title">Konsultasi</h2>
                             </div>
                             <div class="about-desc">
-                                <p class="desc-txt">Layanan konseling perpajakan yang dilaksanakan oleh expert perpajakan yang dimiliki oleh Sudut pajak sesuai dengan kebutuhan Wajib Pajak yang dibantu.</p>
+                                <p class="desc-txt">Layanan konseling perpajakan yang dilaksanakan oleh expert
+                                    perpajakan yang dimiliki oleh Sudut pajak sesuai dengan kebutuhan Wajib Pajak yang
+                                    dibantu.</p>
                             </div>
                         </div>
                     </a>
@@ -73,7 +75,9 @@
                                 <h2 class="title">Pelatihan atau Sertifikasi</h2>
                             </div>
                             <div class="about-desc">
-                                <p class="desc-txt">Memberikan pelatihan di bidang perpajakan seperti brevet pajak dan pelatihan lainnya terkait perpajakan serta memberikan sertifikasi di bidang perpajakan.</p>
+                                <p class="desc-txt">Memberikan pelatihan di bidang perpajakan seperti brevet pajak dan
+                                    pelatihan lainnya terkait perpajakan serta memberikan sertifikasi di bidang
+                                    perpajakan.</p>
                             </div>
                         </div>
                     </a>
@@ -85,7 +89,8 @@
                                 <h2 class="title">Berita</h2>
                             </div>
                             <div class="about-desc">
-                                <p class="desc-txt">Memberikan informasi terkait peristiwa-peristiwa yang berkaitan dengan perpajakan.</p>
+                                <p class="desc-txt">Memberikan informasi terkait peristiwa-peristiwa yang berkaitan
+                                    dengan perpajakan.</p>
                             </div>
                         </div>
                     </a>
@@ -97,7 +102,10 @@
                                 <h2 class="title">Kategori Perbidang Usaha</h2>
                             </div>
                             <div class="about-desc">
-                                <p class="desc-txt">Memberikan layanan edukasi perpajakan yang terkait bidang-bidang usaha tertentu secara spesifik untuk masing-masing bidang usaha.</p>
+                                <p class="desc-txt">
+                                    Memberikan layanan edukasi perpajakan yang terkait bidang-bidang
+                                    usaha tertentu secara spesifik untuk masing-masing bidang usaha.
+                                </p>
                             </div>
                         </div>
                     </a>
@@ -109,7 +117,9 @@
                                 <h2 class="title">Forum Pajak</h2>
                             </div>
                             <div class="about-desc">
-                                <p class="desc-txt">Tempat untuk bertanya dan berbagi ilmu di bidang perpajakan.</p>
+                                <p class="desc-txt">
+                                    Tempat untuk bertanya dan berbagi ilmu di bidang perpajakan.
+                                </p>
                             </div>
                         </div>
                     </a>
@@ -121,19 +131,23 @@
                                 <h2 class="title">Pembelajaran PPh</h2>
                             </div>
                             <div class="about-desc">
-                                <p class="desc-txt">Menyajikan layanan pendidikan perpajakan yang disesuaikan dengan kebutuhan spesifik dari berbagai sektor usaha untuk meningkatkan pemahaman dan kesiapan pajak.</p>
+                                <p class="desc-txt">
+                                    Menyajikan layanan pendidikan perpajakan yang disesuaikan dengan kebutuhan spesifik dari berbagai sektor usaha untuk meningkatkan pemahaman dan kesiapan pajak.
+                                </p>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-7 md-mb-40 mt-40">
-                    <a href="pembelajaran_pph.php">
+                    <a href="kuis.php">
                         <div class="single-about style4 box-shadow">
                             <div class="about-title">
-                                <h2 class="title">Quiz</h2>
+                                <h2 class="title">Kuis</h2>
                             </div>
                             <div class="about-desc">
-                                <p class="desc-txt">Menyediakan layanan Quiz edukasi perpajakan yang bertujuan untuk meningkatkan pemahaman dan kesiapan dalam mengelola pajak.</p>
+                                <p class="desc-txt">
+                                    Menyediakan layanan Kuis edukasi perpajakan yang bertujuan untuk meningkatkan pemahaman dan kesiapan dalam mengelola pajak.
+                                </p>
                             </div>
                         </div>
                     </a>

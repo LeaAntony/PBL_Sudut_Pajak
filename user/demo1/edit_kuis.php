@@ -60,11 +60,6 @@
                                 <input type="text" class="form-control border-info-subtle" id="judul" rows="3"
                                     placeholder="Waktu Pengerjaan"></input>
                             </div>
-                            <div class="mb-3">
-                                <label for="pertanyaan" class="form-label fw-bold">Jumlah Soal</label>
-                                <input type="text" class="form-control border-info-subtle" id="judul" rows="3"
-                                    placeholder="Jumlah Soal Kuis"></input>
-                            </div>
                             <div class="mt-5">
 								<a href="" class="btn">
 									<span class="tambah text-white" required>Tambah</span>

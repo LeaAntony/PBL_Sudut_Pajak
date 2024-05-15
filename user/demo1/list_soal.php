@@ -73,14 +73,32 @@
                 </div>
                 <div class="card shadow mb-4">
                     <div class="card-body">
-                        <div class="d-flex justify-content-end mb-3">
-                            <a href="create_soal.php" class="btn">
-                                <i class="fas fa-plus-circle"></i>
-                                <span class="tambah text-white" required>Tambah Soal</span>
-                            </a>
+                        <div class="row mb-3">
+                            <div class="col-1">
+                                <a href="edit_kuis.php" class="btn">
+                                    <i class="fas fa-edit"></i>
+                                    <span class="tambah text-white" required>Edit Kuis</span>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-end col-11">
+                                <a href="create_soal.php" class="btn">
+                                    <i class="fas fa-plus-circle"></i>
+                                    <span class="tambah text-white" required>Tambah Soal</span>
+                                </a>
+                            </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12 mt-5">
+                            <div class="col-4">
+                                <h3 style="font-weight: bold;">Judul Kuis : </h3> 
+                                <p>Kuis PPh 21: Tes Pemahaman tentang Pajak Gaji</p>
+                            </div>
+                            <div class="col-2">
+                                <h3 style="font-weight: bold;">Waktu Kuis : </h3> 
+                                <p>20 menit</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 mt-1">
                                 <div class="table-1">
                                     <table class="table">
                                         <thead>

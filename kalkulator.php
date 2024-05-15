@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <!-- kalkulator css -->
   <link rel="stylesheet" type="text/css" href="stylekalkulator.css">
+  <link rel="stylesheet" href="icons/uicons/css/uicons-regular-rounded.css">
   <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
@@ -17,7 +18,10 @@
     <div class="row text-center ">
       <div class="col-md-12 text-center">
         <header style="margin-top:2rem; margin-left:60px;">
-          Kalkulator PPh 21 Masa
+        <div style="color: #63E6BE;">
+          <i class="fi fi-rr-calculator" style="font-size: 60px; "></i> 
+          KALKULATOR PAJAK PPh 21
+        </div>
         </header>
         <div class="progress-bar">
           <div class="step">

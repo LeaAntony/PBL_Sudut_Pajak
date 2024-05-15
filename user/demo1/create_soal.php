@@ -38,7 +38,7 @@
                 </div>
                 <div class="card shadow mb-4">
                     <div class="card-body">
-                        <form action="" method="POST">
+                        <form action="list_soal.php" method="POST">
                             <div class="mb-3">
                                 <label for="pertanyaan" class="form-label">Pertanyaan</label>
                                 <textarea class="form-control border-info-subtle" id="pertanyaan" rows="3"
@@ -126,7 +126,7 @@
                             <div id="soalEsai" class="visually-hidden"></div>
 
                             <div class="mt-5" id="submit">
-                                <a href="" class="btn text-white">Tambah</a>
+                                <a href="list_soal.php" class="btn text-white">Tambah</a>
                             </div>
                         </form>
                     </div>

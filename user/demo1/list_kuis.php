@@ -98,7 +98,7 @@
                                                 <td>20 menit</td>
                                                 <td>4</td>
                                                 <td>
-                                                    <a href="edit_kuis.php"><i class="fa fa-edit btn btn-edit"></i></a>
+                                                    <a href="list_soal.php"><i class="fa fa-edit btn btn-edit"></i></a>
                                                     <i class="fa fa-trash btn btn-delete ml-2"></i>
                                                 </td>
                                             </tr>
@@ -108,7 +108,7 @@
                                                 <td>15 menit</td>
                                                 <td>3</td>
                                                 <td>
-                                                    <a href="edit_kuis.php"><i class="fa fa-edit btn btn-edit"></i></a>
+                                                    <a href="list_soal.php"><i class="fa fa-edit btn btn-edit"></i></a>
                                                     <i class="fa fa-trash btn btn-delete ml-2"></i>
                                                 </td>
                                             </tr>
@@ -118,7 +118,7 @@
                                                 <td>15 menit</td>
                                                 <td>5</td>
                                                 <td>
-                                                    <a href="edit_kuis.php"><i class="fa fa-edit btn btn-edit"></i></a>
+                                                    <a href="list_soal.php"><i class="fa fa-edit btn btn-edit"></i></a>
                                                     <i class="fa fa-trash btn btn-delete ml-2"></i>
                                                 </td>
                                             </tr>
@@ -128,7 +128,7 @@
                                                 <td>10 menit</td>
                                                 <td>3</td>
                                                 <td>
-                                                    <a href="edit_kuis.php"><i class="fa fa-edit btn btn-edit"></i></a>
+                                                    <a href="list_soal.php"><i class="fa fa-edit btn btn-edit"></i></a>
                                                     <i class="fa fa-trash btn btn-delete ml-2"></i>
                                                 </td>
                                             </tr>
