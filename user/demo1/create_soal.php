@@ -41,12 +41,12 @@
                         <form action="list_soal.php" method="POST">
                             <div class="mb-3">
                                 <label for="pertanyaan" class="form-label">Pertanyaan</label>
-                                <textarea class="form-control border-info-subtle" id="pertanyaan" rows="3"
+                                <textarea class="form-control" id="pertanyaan" rows="3"
                                     placeholder="Pertanyaan Soal"></textarea>
                             </div>
                             <div class="mb-3">
                                 <label for="skor" class="form-label">Skor</label>
-                                <input type="number" class="form-control border-info-subtle" id="skor"
+                                <input type="number" class="form-control" id="skor"
                                     placeholder="Skor Soal">
                             </div>
                             <!-- tipe soal -->
@@ -69,7 +69,7 @@
                                         <div class="badge text-bg-light rounded px-3">
                                             <p class="fs-6 my-auto">A.</p>
                                         </div>
-                                        <input type="text" class="form-control border-info-subtle" id="pilihan_a"
+                                        <input type="text" class="form-control" id="pilihan_a"
                                             placeholder="Isi Pilihan Ganda">
                                         <div class="form-check form-check-inline">
                                             <input type="radio" class="form-check-input" name="radio-4" id="jawaban_a"
@@ -80,7 +80,7 @@
                                         <div class="badge text-bg-light rounded px-3">
                                             <p class="fs-6 my-auto">B.</p>
                                         </div>
-                                        <input type="text" class="form-control border-info-subtle" id="pilihan_b"
+                                        <input type="text" class="form-control" id="pilihan_b"
                                             placeholder="Isi Pilihan Ganda" disabled>
                                         <div class="form-check form-check-inline">
                                             <input type="radio" class="form-check-input" name="radio-4" id="jawaban_b"
@@ -91,7 +91,7 @@
                                         <div class="badge text-bg-light rounded px-3">
                                             <p class="fs-6 my-auto">C.</p>
                                         </div>
-                                        <input type="text" class="form-control border-info-subtle" id="pilihan_c"
+                                        <input type="text" class="form-control" id="pilihan_c"
                                             placeholder="Isi Pilihan Ganda" disabled>
                                         <div class="form-check form-check-inline">
                                             <input type="radio" class="form-check-input" name="radio-4" id="jawaban_c"
@@ -102,7 +102,7 @@
                                         <div class="badge text-bg-light rounded px-3">
                                             <p class="fs-6 my-auto">D.</p>
                                         </div>
-                                        <input type="text" class="form-control border-info-subtle" id="pilihan_d"
+                                        <input type="text" class="form-control" id="pilihan_d"
                                             placeholder="Isi Pilihan Ganda" disabled>
                                         <div class="form-check form-check-inline">
                                             <input type="radio" class="form-check-input" name="radio-4" id="jawaban_d"
@@ -113,7 +113,7 @@
                                         <div class="badge text-bg-light rounded px-3">
                                             <p class="fs-6 my-auto">E.</p>
                                         </div>
-                                        <input type="text" class="form-control border-info-subtle" id="pilihan_e"
+                                        <input type="text" class="form-control" id="pilihan_e"
                                             placeholder="Isi Pilihan Ganda" disabled>
                                         <div class="form-check form-check-inline">
                                             <input type="radio" class="form-check-input" name="radio-4" id="jawaban_e"
