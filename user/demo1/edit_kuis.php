@@ -18,11 +18,6 @@
         .btn {
             background: linear-gradient(41deg, #09c778, #01a0f9);
         }
-
-        .fa-edit {
-            margin-right: 5px;
-            color: white;
-        }
     </style>
 
 </head>
@@ -41,30 +36,22 @@
                 </div>
                 <div class="card shadow mb-4">
                     <div class="card-body">
-                        <div class="btn-container">
-                            <div class="d-flex justify-content-end mb-3">
-                                <a href="list_soal.php" class="btn">
-                                    <i class="fas fa-edit"></i>
-                                    <span class="tambah text-white" required>Edit Soal</span>
-                                </a>
-                            </div>
-                        </div>
                         <form action="" method="POST" enctype="multipart/form-data">
                             <div class="mb-3">
                                 <label for="pertanyaan" class="form-label fw-bold">Judul</label>
-                                <input type="text" class="form-control border-info-subtle" id="judul" rows="3"
+                                <input type="text" class="form-control" id="judul" rows="3"
                                     placeholder="Judul Kuis"></input>
                             </div>
                             <div class="mb-3">
                                 <label for="pertanyaan" class="form-label fw-bold">Waktu</label>
-                                <input type="text" class="form-control border-info-subtle" id="judul" rows="3"
+                                <input type="text" class="form-control" id="judul" rows="3"
                                     placeholder="Waktu Pengerjaan"></input>
                             </div>
                             <div class="mt-5">
-								<a href="" class="btn">
-									<span class="tambah text-white" required>Tambah</span>
-								</a>
-							</div>
+                                <a href="" class="btn">
+                                    <span class="tambah text-white" required>Tambah</span>
+                                </a>
+                            </div>
                         </form>
                     </div>
                 </div>
