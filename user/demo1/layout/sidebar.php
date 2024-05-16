@@ -302,28 +302,33 @@ function site_url()
 								</ul>
 							</div>
 						</li>
-						<!-- End Menu -->
-
 						<!-- Kuis -->
-						<li class="nav-section">
-							<span class="sidebar-mini-icon">
-								<i class="fa fa-ellipsis-h"></i>
-							</span>
-							<h4 class="text-section">Kuis</h4>
-						</li>
-						<li class="nav-item">
-							<a href="./list_kuis.php">
-								<i class="fas fa-clipboard-list"></i>
-								<p>Daftar Kuis</p>
+						<li
+							class="nav-item <?= (full_path() == site_url() . '/user/demo1/list_kuis.php' || full_path() == site_url() . '/user/demo1/riwayat_pengerjaan.php') ? 'active' : '' ?>">
+							<a data-toggle="collapse" href="#kuis">
+								<i class="far fa-list-alt"></i>
+								<p>Manajemen Kuis</p>
+								<span class="caret"></span>
 							</a>
+							<div class="collapse <?= (full_path() == site_url() . '/user/demo1/list_kuis.php' || (explode("?", full_path())[0] == site_url() . '/user/demo1/create_kuis.php') || (explode("?", full_path())[0] == site_url() . '/user/demo1/list_soal.php') || full_path() == site_url() . '/user/demo1/riwayat_kuis.php')  ? 'show' : '' ?>"
+								id="kuis">
+								<ul class="nav nav-collapse">
+									<li
+										class="<?= (full_path() == site_url() . '/user/demo1/list_kuis.php') || (full_path() == site_url() . '/user/demo1/create_kuis.php') || (full_path() == site_url() . '/user/demo1/list_soal.php') ? 'active' : '' ?>">
+										<a href="list_kuis.php">
+											<span class="sub-item">Daftar Kuis</span>
+										</a>
+									</li>
+									<li
+										class="<?= (full_path() == site_url() . '/user/demo1/riwayat_kuis.php') ? 'active' : '' ?>">
+										<a href="riwayat_kuis.php">
+											<span class="sub-item">Riwayat Pengerjaan</span>
+										</a>
+									</li>
+								</ul>
+							</div>
 						</li>
-						<li class="nav-item">
-							<a href="./riwayat_kuis.php">
-								<i class="fas fa-history"></i>
-								<p>Riwayat Pengerjaan</p>
-							</a>
-						</li>
-						<!-- End Kuis -->
+						<!-- End Menu -->
 
 						<!-- Akun -->
 						<li class="nav-section">
