@@ -318,7 +318,7 @@ function site_url()
 							</a>
 						</li>
 						<li class="nav-item">
-							<a href="">
+							<a href="./riwayat_kuis.php">
 								<i class="fas fa-history"></i>
 								<p>Riwayat Pengerjaan</p>
 							</a>
