@@ -75,7 +75,7 @@
                         <div class="d-flex justify-content-end mb-3">
                             <a href="create_kuis.php" class="btn">
                                 <i class="fas fa-plus-circle"></i>
-                                <span class="tambah text-white" required>Tambah Soal</span>
+                                <span class="tambah text-white" required>Tambah Kuis</span>
                             </a>
                         </div>
                         <div class="row">
