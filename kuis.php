@@ -2,27 +2,55 @@
 <html lang="en">
 
 <head>
-    <title>Kategori Perbidang Usaha</title>
+    <title>Kuis</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-    <link rel="stylesheet" href="icons/uicons/css/uicons-regular-rounded.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
-        /* Custom CSS untuk mengatur tinggi kartu */
-        .single-about {
-            height: 300px;
-        }
+.quiz-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Mengatur sudut melengkung */
+    overflow: hidden; /* Memastikan gambar tidak melintasi sudut yang melengkung */
+    width: 600px; /* Menetapkan lebar kotak */
+    height: 250px; /* Menetapkan tinggi kotak */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan di belakang kotak */
+}
 
-        .single-about>p {
-            color: black;
-        }
+.quiz-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.quiz-logo {
+    width: 50px; /* Sesuaikan ukuran logo sesuai kebutuhan */
+    height: auto;
+    margin-right: 10px;
+}
+.quiz-button {
+    position: absolute; /* Menetapkan posisi absolut untuk tombol */
+    bottom: 40px; /* Menetapkan jarak dari bawah */
+    right: 80px; /* Menetapkan jarak dari kanan */
+    padding: 5px 10px; /* Menetapkan padding tombol */
+    font-size: 14px; /* Menetapkan ukuran font tombol */    
+}
+.quiz-button1 {
+    position: absolute; /* Menetapkan posisi absolut untuk tombol */
+    bottom: 40px; /* Menetapkan jarak dari bawah */
+    right: 100px; /* Menetapkan jarak dari kanan */
+    padding: 5px 10px; /* Menetapkan padding tombol */
+    font-size: 14px; /* Menetapkan ukuran font tombol */
+}
+
     </style>
 </head>
 
 <body>
     <?php
-
     session_start();
-    // include './connection.php';
     ?>
     <!-- Header Section Start-->
     <?php include 'konsultasi/navbar4.php'; ?>
@@ -38,9 +66,7 @@
                         <h1 class="breadcrumbs-title mb-17">Kuis</h1>
                         <div class="categories">
                             <ul>
-                                <li><a href="index.php"><i class="fa fa-house"></i>Beranda</a></li>
-                                <li><a href="layanan.php"><i class="fa fa-house"></i>Layanan</a></li>
-                                <li>Kuis</li>
+                                <li><a href="index.php"><i class="fa fa-house"></i>PPH 21</a></li>
                             </ul>
                         </div>
                     </div>
@@ -48,60 +74,53 @@
             </div>
         </div>
     </div>
-    <!-- Breadcrumbs End -->
-    <!-- Privacy Policy Start -->
-    <div class="neuron-about gray-bg pt-90 pb-100 md-pt-70 md-pb-80">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 style="color:#276392;">Kuis Yang Tersedia</h2>
+            </div>
+        </div>
         <div class="container">
-            <div class="sec-title text-center mb-45">
-                <h2 class="title extra-none title-color mb-0">Kuis Yang Tersedia</h2>
-            </div>
-            <div class="row col-20 d-flex justify-content-center">
-                <div class="col-lg-6 col-md-6 mb-20">
-                    <div class="single-about box-shadow">
-                        <div class="about-title">
-                            <h2 class="row" style="font-size: 20px;">
-                                <span class="card-image inline-block col" style="color: #63E6BE;">
-                                    <svg class="fill-cyan-500" id="kuis" height="64" viewBox="0 0 24 24" width="64"
-                                        xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
-                                        <path
-                                            d="m20.389 4.268-2.657-2.657a5.462 5.462 0 0 0 -3.889-1.611h-6.343a5.506 5.506 0 0 0 -5.5 5.5v13a5.506 5.506 0 0 0 5.5 5.5h9a5.506 5.506 0 0 0 5.5-5.5v-10.343a5.464 5.464 0 0 0 -1.611-3.889zm-3.889 16.732h-9a2.5 2.5 0 0 1 -2.5-2.5v-13a2.5 2.5 0 0 1 2.5-2.5h5.5v4a2 2 0 0 0 2 2h4v9.5a2.5 2.5 0 0 1 -2.5 2.5zm.586-9.534a1.5 1.5 0 0 1 -.052 2.12l-3.586 3.414a3.5 3.5 0 0 1 -4.923-.025l-1.525-1.355a1.5 1.5 0 1 1 2-2.24l1.586 1.414a.584.584 0 0 0 .414.206.5.5 0 0 0 .353-.146l3.613-3.44a1.5 1.5 0 0 1 2.12.052z" />
-                                    </svg>
-                                </span>
-                                <div class="col-9">Kuis PPh 21 : Tes Pemahaman Tentang Pajak Gaji</div>
-                            </h2>
-                        </div>
-                        <div class="about-desc text-right" style="margin-top: 120px;">
-                            <div class="about-btn">
-                                <a class="readon radius" href="/konsultasi">Lihat</a>
-                            </div>
-                        </div>
-                    </div>
+    <div class="row">
+        <div class="col-md-6"> <!-- Menggunakan setengah kolom untuk kuis pertama -->
+            <div class="quiz-box">
+                <div class="quiz-header">
+                    <img src="img/kuislogo.png" alt="Logo Kuis" class="quiz-logo">
+                    <h3>Kuis PPh 21: Tes Pemahaman tentang Pajak Gaji</h3>
                 </div>
-                <div class="col-lg-6 col-md-6 mb-20">
-                    <div class="single-about box-shadow">
-                        <div class="about-title">
-                            <h2 class="row" style="font-size: 20px;">
-                                <span class="card-image inline-block col">
-                                    <svg class="fill-cyan-500" id="kuis" height="64" viewBox="0 0 24 24" width="64"
-                                        xmlns="http://www.w3.org/2000/svg" data-name="Layer 1">
-                                        <path
-                                            d="m20.389 4.268-2.657-2.657a5.462 5.462 0 0 0 -3.889-1.611h-6.343a5.506 5.506 0 0 0 -5.5 5.5v13a5.506 5.506 0 0 0 5.5 5.5h9a5.506 5.506 0 0 0 5.5-5.5v-10.343a5.464 5.464 0 0 0 -1.611-3.889zm-3.889 16.732h-9a2.5 2.5 0 0 1 -2.5-2.5v-13a2.5 2.5 0 0 1 2.5-2.5h5.5v4a2 2 0 0 0 2 2h4v9.5a2.5 2.5 0 0 1 -2.5 2.5zm.586-9.534a1.5 1.5 0 0 1 -.052 2.12l-3.586 3.414a3.5 3.5 0 0 1 -4.923-.025l-1.525-1.355a1.5 1.5 0 1 1 2-2.24l1.586 1.414a.584.584 0 0 0 .414.206.5.5 0 0 0 .353-.146l3.613-3.44a1.5 1.5 0 0 1 2.12.052z" />
-                                    </svg>
-                                </span>
-                                <div class="col-9">Kuis PPh 21 : Perhitungan PPh 21</div>
-                            </h2>
-                        </div>
-                        <div class="about-desc text-right" style="margin-top: 120px;">
-                            <div class="about-btn">
-                                <a class="readon radius" href="/konsultasi">Lihat</a>
-                            </div>
-                        </div>
-                    </div>
+                <div class="quiz-button">
+                    <a href="quiz1_pajak.php" class="btn btn-primary btn-block">Lihat</a>
                 </div>
             </div>
-        </div><!-- .container end -->
+        </div>
+        <div class="col-md-6"> <!-- Menggunakan setengah kolom untuk kuis kedua -->
+            <div class="quiz-box">
+                <div class="quiz-header">
+                    <img src="img/kuislogo.png" alt="Logo Kuis" class="quiz-logo">
+                    <h3>Kuis PPh 21: Tes Pemahaman tentang Pajak Gaji</h3>
+                </div>
+                <div class="quiz-button">
+                    <a href="link_kuis_2" class="btn btn-primary btn-block">Lihat</a>
+                </div>
+            </div>
+        </div>
     </div>
-
+</div>
+<div class="row justify-content-center"> <!-- Menggunakan baris baru dan posisi tengah -->
+        <div class="col-md-6"> <!-- Menggunakan setengah kolom untuk kuis ketiga -->
+            <div class="quiz-box">
+                <div class="quiz-header">
+                    <img src="img/kuislogo.png" alt="Logo Kuis" class="quiz-logo">
+                    <h3>Kuis PPh 21: Perhitungan PPh 21</h3>
+                </div>
+                <div class="quiz-button1">
+                    <a href="link_kuis_3" class="btn btn-primary btn-block">Lihat</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
     <!-- Privacy Policy End -->
     <?php include './layout/footer.php'; ?>
 </body>
