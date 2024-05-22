@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Kategori Perbidang Usaha</title>
+    <title>Layanan Kami</title>
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <style>
@@ -34,11 +34,11 @@
             <div class="breadcrumbs-inner">
                 <div class="container">
                     <div class="breadcrumbs-text">
-                        <h1 class="breadcrumbs-title mb-17">Layanan</h1>
+                        <h1 class="breadcrumbs-title mb-17">Kategori Perbidang Usaha</h1>
                         <div class="categories">
                             <ul>
                                 <li><a href="index.php"><i class="fa fa-house"></i>Beranda</a></li>
-                                <li>Layanan</li>
+                                <li>Kategori Perbidang Usaha</li>
                             </ul>
                         </div>
                     </div>
@@ -49,110 +49,106 @@
     <!-- Breadcrumbs End -->
     <!-- Privacy Policy Start -->
     <div class="neuron-about gray-bg pt-90 pb-100 md-pt-70 md-pb-80">
-        <div class="container">
-            <div class="sec-title text-center mb-45">
-                <h2 class="title extra-none title-color mb-0">Layanan Kami</h2>
+    <div class="container">
+        <div class="sec-title text-center mb-45">
+            <h2 class="title extra-none title-color mb-0">Layanan Kami</h2>
+        </div>
+        <div class="row col-20 d-flex justify-content-center">
+            <div class="col-lg-6 col-md-6 mb-40">
+                <a href="../PBL-25/konsultasi/index.php">
+                    <div class="single-about style4 box-shadow">
+                        <div class="about-title">
+                            <h2 class="title">Konsultasi</h2>
+                        </div>
+                        <div class="about-desc">
+                            <p class="desc-txt">Layanan konseling perpajakan yang dilaksanakan oleh expert perpajakan yang dimiliki oleh Sudut pajak sesuai dengan kebutuhan Wajib Pajak yang dibantu.</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-            <div class="row col-20 d-flex justify-content-center">
-                <div class="col-lg-6 col-md-6 mb-40">
-                    <a href="../PBL-25/konsultasi/index.php">
-                        <div class="single-about style4 box-shadow">
-                            <div class="about-title">
-                                <h2 class="title">Konsultasi</h2>
-                            </div>
-                            <div class="about-desc">
-                                <p class="desc-txt">Layanan konseling perpajakan yang dilaksanakan oleh expert
-                                    perpajakan yang dimiliki oleh Sudut pajak sesuai dengan kebutuhan Wajib Pajak yang
-                                    dibantu.</p>
-                            </div>
+            <div class="col-lg-6 col-md-6 mb-40">
+                <a href="pelatihan_sertifikasi.php">
+                    <div class="single-about style4 box-shadow">
+                        <div class="about-title">
+                            <h2 class="title">Pelatihan atau Sertifikasi</h2>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6 mb-40">
-                    <a href="pelatihan_sertifikasi.php">
-                        <div class="single-about style4 box-shadow">
-                            <div class="about-title">
-                                <h2 class="title">Pelatihan atau Sertifikasi</h2>
-                            </div>
-                            <div class="about-desc">
-                                <p class="desc-txt">Memberikan pelatihan di bidang perpajakan seperti brevet pajak dan
-                                    pelatihan lainnya terkait perpajakan serta memberikan sertifikasi di bidang
-                                    perpajakan.</p>
-                            </div>
+                        <div class="about-desc">
+                            <p class="desc-txt">Memberikan pelatihan di bidang perpajakan seperti brevet pajak dan pelatihan lainnya terkait perpajakan serta memberikan sertifikasi di bidang perpajakan.</p>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6 mb-40">
-                    <a href="daftar_berita.php">
-                        <div class="single-about style4 box-shadow">
-                            <div class="about-title">
-                                <h2 class="title">Berita</h2>
-                            </div>
-                            <div class="about-desc">
-                                <p class="desc-txt">Memberikan informasi terkait peristiwa-peristiwa yang berkaitan
-                                    dengan perpajakan.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6 md-mb-40">
-                    <a href="kategoriusaha.php">
-                        <div class="single-about style4 box-shadow">
-                            <div class="about-title">
-                                <h2 class="title">Kategori Perbidang Usaha</h2>
-                            </div>
-                            <div class="about-desc">
-                                <p class="desc-txt">
-                                    Memberikan layanan edukasi perpajakan yang terkait bidang-bidang
-                                    usaha tertentu secara spesifik untuk masing-masing bidang usaha.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6 md-mb-40">
-                    <a href="forum.php">
-                        <div class="single-about style4 box-shadow">
-                            <div class="about-title">
-                                <h2 class="title">Forum Pajak</h2>
-                            </div>
-                            <div class="about-desc">
-                                <p class="desc-txt">
-                                    Tempat untuk bertanya dan berbagi ilmu di bidang perpajakan.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-6 md-mb-40">
-                    <a href="pembelajaran.php">
-                        <div class="single-about style4 box-shadow">
-                            <div class="about-title">
-                                <h2 class="title">Pembelajaran PPh</h2>
-                            </div>
-                            <div class="about-desc">
-                                <p class="desc-txt">
-                                    Menyajikan layanan pendidikan perpajakan yang disesuaikan dengan kebutuhan spesifik dari berbagai sektor usaha untuk meningkatkan pemahaman dan kesiapan pajak.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-6 col-md-7 md-mb-40 mt-40">
-                    <a href="kuis.php">
-                        <div class="single-about style4 box-shadow">
-                            <div class="about-title">
-                                <h2 class="title">Kuis</h2>
-                            </div>
-                            <div class="about-desc">
-                                <p class="desc-txt">
-                                    Menyediakan layanan Kuis edukasi perpajakan yang bertujuan untuk meningkatkan pemahaman dan kesiapan dalam mengelola pajak.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                    </div>
+                </a>
             </div>
+        </div>
+        <div class="row col-20 d-flex justify-content-center">
+            <div class="col-lg-6 col-md-6 mb-40">
+                <a href="daftar_berita.php">
+                    <div class="single-about style4 box-shadow">
+                        <div class="about-title">
+                            <h2 class="title">Berita</h2>
+                        </div>
+                        <div class="about-desc">
+                            <p class="desc-txt">Memberikan informasi terkait peristiwa-peristiwa yang berkaitan dengan perpajakan.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6 md-mb-40">
+                <a href="kategoriusaha.php">
+                    <div class="single-about style4 box-shadow">
+                        <div class="about-title">
+                            <h2 class="title">Kategori Perbidang Usaha</h2>
+                        </div>
+                        <div class="about-desc">
+                            <p class="desc-txt">Memberikan layanan edukasi perpajakan yang terkait bidang-bidang usaha tertentu secara spesifik untuk masing-masing bidang usaha.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="row col-20 d-flex justify-content-center">
+            <div class="col-lg-6 col-md-6 md-mb-40">
+                <a href="forum.php">
+                    <div class="single-about style4 box-shadow">
+                        <div class="about-title">
+                            <h2 class="title">Forum Pajak</h2>
+                        </div>
+                        <div class="about-desc">
+                            <p class="desc-txt">Tempat untuk bertanya dan berbagi ilmu di bidang perpajakan.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6 md-mb-40">
+                <a href="forum.php">
+                    <div class="single-about style4 box-shadow">
+                        <div class="about-title">
+                            <h2 class="title">Pembelajaran PPh</h2>
+                        </div>
+                        <div class="about-desc">
+                            <p class="desc-txt">Menyajikan layanan pendidikan perpajakan yang disesuaikan dengan kebutuhan spesifik dari berbagai sektor usaha untuk meningkatkan pemahaman dan kesiapan pajak.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            </div>
+        <div class="row col-20 d-flex justify-content-center md-mb-40">
+            <div class="col-lg-6 col-md-6 md-mb-40 mt-40">
+                <a href="quiz_pajak.php">
+                    <div class="single-about style4 box-shadow">
+                        <div class="about-title">
+                            <h2 class="title">Kuis</h2>
+                        </div>
+                        <div class="about-desc">
+                            <p class="desc-txt">Menyediakan layanan kuis edukasi perpajakan yang  bertujuan untuk meningkatkan pemahaman dan kesiapan dalam mengelola pajak.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
         </div><!-- .container end -->
     </div>
 
