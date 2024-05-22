@@ -316,7 +316,7 @@ function site_url()
 									<li
 										class="<?= (full_path() == site_url() . '/user/demo1/list_kuis.php') || (full_path() == site_url() . '/user/demo1/create_kuis.php') || (full_path() == site_url() . '/user/demo1/list_soal.php') ? 'active' : '' ?>">
 										<a href="list_kuis.php">
-											<span class="sub-item">Daftar Kuis</span>
+											<span class="sub-item">List Kuis</span>
 										</a>
 									</li>
 									<li

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Daftar Kuis | Sudut Pajak</title>
+    <title>List Kuis | Sudut Pajak</title>
     <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon.png">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
@@ -67,7 +67,7 @@
                 <div class="page-header">
                     <div class="d-flex align-items-center mb-3">
                         <div class="block"></div>
-                        <h4 class="page-title fw-bold">Daftar Kuis</h4>
+                        <h4 class="page-title fw-bold">List Kuis</h4>
                     </div>
                 </div>
                 <div class="card shadow mb-4">
