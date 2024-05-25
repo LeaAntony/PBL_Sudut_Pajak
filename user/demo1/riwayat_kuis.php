@@ -66,7 +66,7 @@
                                             <td>80.00/100.00</td>
                                             <td>Selesai</td>
                                             <td>
-                                                <a href="#" style="color: blue; text-decoration: underline;">Evaluasi</a>
+                                                <a href="evaluasi_kuis.php" style="color: blue; text-decoration: underline;">Evaluasi</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -76,7 +76,7 @@
                                             <td>60.00/100</td>
                                             <td>Selesai</td>
                                             <td>
-                                                <a href="#" style="color: blue; text-decoration: underline;">Evaluasi</a>
+                                                <a href="evaluasi_kuis.php" style="color: blue; text-decoration: underline;">Evaluasi</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -86,7 +86,7 @@
                                             <td>90.00/100</td>
                                             <td>Selesai</td>
                                             <td>
-                                                <a href="#" style="color: blue; text-decoration: underline;">Evaluasi</a>
+                                                <a href="evaluasi_kuis.php" style="color: blue; text-decoration: underline;">Evaluasi</a>
                                             </td>
                                         </tr>
                                     </tbody>
